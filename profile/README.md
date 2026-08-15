@@ -12,5 +12,5 @@ Speaks OCPI **2.1.1, 2.2, 2.2.1 and 2.3.0**, including the versions where megawa
 charging and payment terminals live.
 
 - Product: [chargerdojo.com](https://chargerdojo.com)
-- Docs: [chargerdojo.com/docs](https://chargerdojo.com/docs)
+- Docs: [docs.chargerdojo.com](https://docs.chargerdojo.com)
 - Contact: [contact@chargerdojo.com](mailto:contact@chargerdojo.com)
