@@ -1,15 +1,30 @@
 # ChargerDojo
 
-The dojo where EV roaming integrations train before they meet production.
+**Test EV roaming integrations before your partners do.**
 
-[ChargerDojo](https://chargerdojo.com) is the OCPI testing platform for CPO, eMSP and hub teams.
-Register your endpoint, complete the credentials handshake, run conformance suites and timed
-end-to-end charging journeys against a counterparty that can misbehave on purpose, inspect every
-message exchanged, and share the report with your partner. A free simulator and Learning Hub teach
-the protocol itself.
+[ChargerDojo](https://chargerdojo.com) is the OCPI testing platform for CPOs, eMSPs, payment
+terminal providers and roaming hubs. Point it at your endpoint and it plays the other side of the
+wire: a strict counterparty that grades every message against the spec, and a controllable one that
+misbehaves on purpose, so you find the bugs that would otherwise surface after a billing cycle.
 
-Speaks OCPI **2.1.1, 2.2, 2.2.1 and 2.3.0**, including the versions where megawatt charging and
-payment terminals live. OCPP testing is launching soon.
+## What you can do
+
+- **Run conformance suites** on OCPI 2.1.1, 2.2, 2.2.1 and 2.3.0, with every check tied to the
+  clause of the spec it enforces.
+- **Drive timed charging journeys** end to end, with disturbances you control, and load runs of up
+  to 500 parallel sessions.
+- **Test through roaming hubs**, with Gireve and Plugsurfing Roam profiles, hub identity and relay.
+- **Cover the extensions**: Direct Payment, 2.3.0 Payments and Bookings.
+- **Put it in your pipeline** with API keys, scheduled runs and a GitHub Action that fails the
+  build when an endpoint breaks a rule.
+- **Reach an endpoint behind your firewall** with the local connector.
+- **Share the evidence**: every exchanged message in a report your partner opens from one link.
+- **Ask your coding agent**: a hosted MCP server at `mcp.chargerdojo.com` answers OCPI questions and
+  reads your runs from Claude Code, Codex, Cursor or any MCP client.
+- **Learn the protocol free** with a guided EV roaming simulator, the module Explorer and the
+  Learning Hub.
+
+OCPP testing for CSMS vendors and charger makers is launching soon.
 
 ## Open source
 
@@ -19,9 +34,9 @@ payment terminals live. OCPP testing is launching soon.
   ChargerDojo conformance suites in GitHub Actions and fail the build when an endpoint breaks a
   rule.
 
-## Links
+## Get started
 
-- Product: [chargerdojo.com](https://chargerdojo.com)
-- Docs: [docs.chargerdojo.com](https://docs.chargerdojo.com)
+- Start free on the Sandbox plan: [chargerdojo.com](https://chargerdojo.com)
+- Docs and guides: [docs.chargerdojo.com](https://docs.chargerdojo.com)
 - Plans and pricing: [sales@chargerdojo.com](mailto:sales@chargerdojo.com)
 - Technical help: [support@chargerdojo.com](mailto:support@chargerdojo.com)
